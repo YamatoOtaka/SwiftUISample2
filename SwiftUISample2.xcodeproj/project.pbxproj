@@ -15,6 +15,7 @@
 		639030BF248E0FE800C61031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639030BD248E0FE800C61031 /* LaunchScreen.storyboard */; };
 		63DA8811248F2F5300EDD845 /* AlbumCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA8810248F2F5300EDD845 /* AlbumCard.swift */; };
 		63DA8813248F305800EDD845 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA8812248F305800EDD845 /* Album.swift */; };
+		63DA882B24907BF400EDD845 /* TopAlbumCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA882A24907BF400EDD845 /* TopAlbumCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		639030C0248E0FE800C61031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DA8810248F2F5300EDD845 /* AlbumCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCard.swift; sourceTree = "<group>"; };
 		63DA8812248F305800EDD845 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		63DA882A24907BF400EDD845 /* TopAlbumCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				639030B2248E0FE600C61031 /* AppDelegate.swift */,
 				639030B4248E0FE600C61031 /* SceneDelegate.swift */,
 				639030B6248E0FE600C61031 /* AlbumListView.swift */,
+				63DA882A24907BF400EDD845 /* TopAlbumCard.swift */,
 				63DA8810248F2F5300EDD845 /* AlbumCard.swift */,
 				63DA8812248F305800EDD845 /* Album.swift */,
 				639030B8248E0FE800C61031 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				639030B3248E0FE600C61031 /* AppDelegate.swift in Sources */,
+				63DA882B24907BF400EDD845 /* TopAlbumCard.swift in Sources */,
 				63DA8811248F2F5300EDD845 /* AlbumCard.swift in Sources */,
 				639030B5248E0FE600C61031 /* SceneDelegate.swift in Sources */,
 				639030B7248E0FE600C61031 /* AlbumListView.swift in Sources */,
