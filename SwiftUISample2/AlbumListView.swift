@@ -10,13 +10,28 @@ import SwiftUI
 
 struct AlbumListView: View {
     var body: some View {
-        ScrollView(.horizontal) {
-            HStack(spacing: 10) {
-                /// https://docs.swift.org/swift-book/ReferenceManual/Expressions.html#grammar_key-path-expression
-                ForEach(albumlist, id: \.id) { album in
-                    AlbumCard(album: album)
+        ScrollView {
+            VStack {
+                Text("My Albums")
+                    .font(.largeTitle)
+                    .bold()
+                ScrollView(.horizontal) {
+                    HStack(spacing: 10) {
+                        ForEach(albumlist, id: \.id) { album in
+                            AlbumCard(album: album)
+                        }
+                    }.frame(height: 400)
                 }
-            }.frame(height: 400)
+                Text("Top Albums")
+                    .font(.largeTitle)
+                    .bold()
+                VStack {
+                    /// https://docs.swift.org/swift-book/ReferenceManual/Expressions.html#grammar_key-path-expression
+                    ForEach(albumlist, id: \.id) { album in
+                        TopAlbumCard(album: album)
+                    }
+                }
+            }
         }
     }
 }
