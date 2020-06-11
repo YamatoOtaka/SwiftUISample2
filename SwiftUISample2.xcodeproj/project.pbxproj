@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		637D140F2491CEDD00F4339C /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637D140E2491CEDD00F4339C /* AlbumDetailView.swift */; };
 		639030B3248E0FE600C61031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639030B2248E0FE600C61031 /* AppDelegate.swift */; };
 		639030B5248E0FE600C61031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639030B4248E0FE600C61031 /* SceneDelegate.swift */; };
 		639030B7248E0FE600C61031 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639030B6248E0FE600C61031 /* AlbumListView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		637D140E2491CEDD00F4339C /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
 		639030AF248E0FE600C61031 /* SwiftUISample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639030B2248E0FE600C61031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		639030B4248E0FE600C61031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				639030B2248E0FE600C61031 /* AppDelegate.swift */,
 				639030B4248E0FE600C61031 /* SceneDelegate.swift */,
+				637D140E2491CEDD00F4339C /* AlbumDetailView.swift */,
 				639030B6248E0FE600C61031 /* AlbumListView.swift */,
 				63DA882A24907BF400EDD845 /* TopAlbumCard.swift */,
 				63DA8810248F2F5300EDD845 /* AlbumCard.swift */,
@@ -160,6 +163,7 @@
 				63DA8811248F2F5300EDD845 /* AlbumCard.swift in Sources */,
 				639030B5248E0FE600C61031 /* SceneDelegate.swift in Sources */,
 				639030B7248E0FE600C61031 /* AlbumListView.swift in Sources */,
+				637D140F2491CEDD00F4339C /* AlbumDetailView.swift in Sources */,
 				63DA8813248F305800EDD845 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
