@@ -24,6 +24,11 @@ struct AlbumCard: View {
                 Text(album.artist)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
+                NavigationLink(destination: AlbumDetailView(album: album)) {
+                    Text("Read More")
+                        .font(.caption)
+                        .foregroundColor(.accentColor)
+                }
             }
             .padding()
             Spacer()

@@ -40,12 +40,14 @@ struct TopAlbumCard: View {
 struct MoreButtonView: View {
     var album: Album
     var body: some View {
-        VStack {
-            Circle().frame(width: 5, height: 5)
-            Circle().frame(width: 5, height: 5)
-            Circle().frame(width: 5, height: 5)
+        NavigationLink(destination: AlbumDetailView(album: album)) {
+            VStack {
+                Circle().frame(width: 5, height: 5)
+                Circle().frame(width: 5, height: 5)
+                Circle().frame(width: 5, height: 5)
+            }
+            .foregroundColor(.accentColor)
         }
-        .foregroundColor(.accentColor)
     }
 }
 
